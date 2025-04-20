@@ -186,6 +186,8 @@ body {
   background-color: #2e2f42;
   padding: 188px 0;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-hw4-people-office-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .hero-header-style {
@@ -413,6 +415,16 @@ body {
   padding: 100px 0;
 }
 
+.container.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.container.footer-logo-container {
+  margin-right: 120px;
+  margin-left: 0;
+  padding-right: 0;
+}
 
 .footer-logo {
   display: inline-block;
@@ -432,6 +444,11 @@ body {
   max-width: 264px;
 }
 
+.container.footer-socials-container {
+  margin-left: 0;
+  padding-left: 0;
+}
+
 .socials-header {
   font-weight: 500;
   font-size: 16px;
@@ -439,15 +456,6 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-}
-
-.container.footer-container {
-  display: flex;
-  align-items: baseline;
-}
-
-.container.footer-logo-containe {
-  margin-right: 120px;
 }
 
 socials-list.footer-socials {
